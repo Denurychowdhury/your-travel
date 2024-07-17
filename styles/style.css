@@ -202,11 +202,11 @@ border: none;
      margin: 1rem 0;
    display: grid;
     grid-template-columns: 0.75fr 1.25fr;
+    gap: 1rem;
 }
 
 .chose-destination img{
     width: 100%;
     height: 300px;
-    filter: brightness(60%);
-     gap: 1rem;
+     filter: brightness(60%);
 }
