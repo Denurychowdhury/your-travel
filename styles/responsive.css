@@ -55,6 +55,9 @@
     .chose-destination{
         width: calc(100% - 30px);
     }
+    .chose-destination .caption{
+        width: 100%;
+    }
     .chose-destination #row-1{
         grid-template-columns: 1fr;
     }
