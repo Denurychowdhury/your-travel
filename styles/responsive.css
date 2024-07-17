@@ -1,43 +1,45 @@
-@media only screen and (max-width:576px){
-    .logo-menu-container{
-        flex-direction: row;
-        width: calc(100% - 50px);
-    }
-   .menu{
-    display: none;
-   }
-   .logo-menu-container .menu-icon{
-    display: block;
-    font-size: 43px;
-    font-weight: 900;
-}
-    .banner-details .banner-input{
-   flex-direction: column;
-}
-
-.banner-container{
-      padding: 26px 0px;
-      width: calc(100% - 50px);
-}
-
-.banner-container .banner-content{
-    width: 100%;
-}
-.banner-details .banner-content h1{
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.banner-container .banner-details{
-    align-items: normal;
-    width: calc(100% - 50px);
-}
-.banner-details .banner-input>button {
-   width: 100%;
-   justify-content: space-between;
-   padding: 15px;
-}
-.banner-details .banner-input .search{
-    justify-content: center;
-    gap: 10px;
-} 
+@media only screen and (max-width:576px){  
+    /* logo-menu-container */
+    .logo-menu-container {  
+        flex-direction: row;  
+        width: calc(100% - 50px);  
+    }  
+    .menu {  
+        display: none;  
+    }  
+    .logo-menu-container .menu-icon {  
+        display: block;  
+        font-size: 43px;  
+        font-weight: 900;  
+    }  
+    /*end logo-menu-container */
+    /* here banner container media query */
+    .banner-details .banner-input {  
+        flex-direction: column;  
+    }  
+    .banner-container {  
+        padding: 26px 0px;  
+        width: calc(100% - 50px);  
+    }  
+    .banner-container .banner-content {  
+        width: 100%;  
+    }  
+    .banner-details .banner-content h1 {  
+        font-size: 36px;  
+        margin-bottom: 20px;  
+    }  
+    .banner-container .banner-details {  
+        align-items: normal;  
+        width: calc(100% - 50px);  
+    }  
+    .banner-details .banner-input > button {  
+        width: 100%;  
+        justify-content: space-between;  
+        padding: 15px;  
+    }  
+    .banner-details .banner-input .search {  
+        justify-content: center;  
+        gap: 10px;  
+    }   
+     /* End banner container media query */
 }

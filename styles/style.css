@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
 }
 /* header styles here  */
-
+/* .logo-menu-container */
 .logo-menu-container{display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,3 +113,5 @@ font-weight: 400;
     display: flex;
     gap: 5px;
 }
+/*End banner-container */
+/*End of header styles here  */
