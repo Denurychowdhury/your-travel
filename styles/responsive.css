@@ -2,7 +2,7 @@
     /* logo-menu-container */
     .logo-menu-container {  
         flex-direction: row;  
-        width: calc(100% - 50px);  
+        width: calc(100% - 30px);  
     }  
     .menu {  
         display: none;  
@@ -19,7 +19,7 @@
     }  
     .banner-container {  
         padding: 26px 0px;  
-        width: calc(100% - 50px);  
+        width: calc(100% - 30px);  
     }  
     .banner-container .banner-content {  
         width: 100%;  
@@ -30,7 +30,7 @@
     }  
     .banner-container .banner-details {  
         align-items: normal;  
-        width: calc(100% - 50px);  
+        width: calc(100% - 30px);  
     }  
     .banner-details .banner-input > button {  
         width: 100%;  
@@ -42,4 +42,13 @@
         gap: 10px;  
     }   
      /* End banner container media query */
+     .popular-tour .popular-details{
+        flex-direction: column;
+    }
+    .popular-tour .popular-details .content {
+   width: 100%;
+    }
+    .popular-tour{
+        width: calc(100% - 30px);
+    }
 }
