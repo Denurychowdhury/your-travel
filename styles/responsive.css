@@ -51,4 +51,17 @@
     .popular-tour{
         width: calc(100% - 30px);
     }
+    /* chose destination */
+    .chose-destination{
+        width: calc(100% - 30px);
+    }
+    .chose-destination #row-1{
+        grid-template-columns: 1fr;
+    }
+    .chose-destination #row-2{
+        grid-template-columns: 1fr;
+    }
+    .chose-destination #row-3{
+         grid-template-columns: 1fr;
+    }
 }
