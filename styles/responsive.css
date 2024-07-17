@@ -1,6 +1,7 @@
 @media only screen and (max-width:576px){
     .logo-menu-container{
         flex-direction: row;
+        width: calc(100% - 50px);
     }
    .menu{
     display: none;
@@ -14,6 +15,7 @@
 
 .banner-container{
       padding: 26px 0px;
+      width: calc(100% - 50px);
 }
 
 .banner-container .banner-content{
