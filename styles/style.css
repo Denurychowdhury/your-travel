@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 body{
-     font-family: "Mulish", sans-serif;
+    font-family: "Mulish", sans-serif;
+     /* max-width: 1170px;
+    margin: 0 auto; */
+
 }
 *{
     margin: 0;
@@ -13,7 +16,6 @@ body{
     justify-content: space-between;
     align-items: center;
     /* flex-direction: column; */
-    border: 2px solid red;
     margin: 40px auto;
     max-width: 1170px;
 }
