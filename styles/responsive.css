@@ -8,6 +8,8 @@
    }
    .logo-menu-container .menu-icon{
     display: block;
+    font-size: 43px;
+    font-weight: 900;
 }
     .banner-details .banner-input{
    flex-direction: column;
